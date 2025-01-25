@@ -1,0 +1,41 @@
+/* Ensure the ul takes up full width */
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distribute space between nav items */
+    align-items: center; /* Vertically center align items */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .navbar-nav .btn {
+    margin-left: 0;
+    padding: 10px 20px;
+  }
+  .g {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(185 255 102);
+    margin: 10px;
+    border-radius: 30px;
+  }
+  .l {
+    height: 300px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: 10px;
+    border-radius: 30px;
+  }
